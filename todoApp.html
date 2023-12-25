@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>TO-DO-APP</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <h1 class="to-do-heading">TO-DO-APP</h1>
+    <div class="container">
+      <div class="todo-input-grid">
+        <input
+          type="text"
+          class="to-do-input js-to-do-input"
+          placeholder="Write your todo task"
+        />
+        <input class="to-do-data-input js-to-do-date-input" type="date" />
+        <button class="addTaskButtonOnClick js-addTaskButtonOnClick">
+          Add Task
+        </button>
+      </div>
+
+      <div class="js-todo-list todo-grid"></div>
+    </div>
+    <script src="script.js"></script>
+  </body>
+</html>
